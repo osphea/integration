@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="dart"/>
+    <localimport file="flutter"/>
+    <localimport file="minimal"/>
+    <localimport file="skia"/>
+  </imports>
+  <projects>
+    <project name="third_party/benchmark"
+             path="third_party/benchmark"
+             remote="https://fuchsia.googlesource.com/third_party/benchmark"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="21f1eb3fe269ea43eba862bf6b699cde46587ade"/>
+    <project name="third_party/harfbuzz"
+             path="third_party/harfbuzz"
+             remote="https://fuchsia.googlesource.com/third_party/harfbuzz"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="02caec6c1c6ad996666788b8e920ccaec8b385e5"/>
+    <project name="third_party/libjpeg-turbo"
+             path="third_party/libjpeg-turbo"
+             remote="https://fuchsia.googlesource.com/third_party/libjpeg-turbo"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="9587e51cf946f1a1d19bb596bc31ba4e6c9d8893"/>
+    <project name="third_party/libteken"
+             path="third_party/libteken"
+             remote="https://fuchsia.googlesource.com/third_party/libteken"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="b63e85f57ac893c53693decbe1558c33004a66b6"/>
+    <project  name="third_party/tonic"
+             path="third_party/tonic"
+             remote="https://fuchsia.googlesource.com/tonic"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="02f9d8dd18dd259e3c5efe1fbe713819a730b6e0"/>
+  </projects>
+</manifest>
